@@ -1,0 +1,110 @@
+.modal {
+  border: 1px solid #E0E0E0;
+  border-radius: 8px;
+  padding: 16px;
+  max-width: 480px;
+  margin: 0 auto;
+  background-color: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: 600;
+  color: #1D1B20;
+  margin-bottom: 12px;
+  text-align: center;
+}
+
+.selecao-idade {
+  display: flex;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.selecao-idade ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.selecao-idade ul li {
+  font-size: 14px;
+  font-weight: 400;
+  color: #1D1B20;
+}
+
+.selecao-idade ul li span {
+  font-size: 16px;
+  font-weight: 600;
+  margin: 0 8px;
+}
+
+.selecao-idade app-botao-controle {
+  cursor: pointer;
+  display: inline-block;
+  padding: 4px 8px;
+  background-color: #F5F5F5;
+  border-radius: 4px;
+  color: #1D1B20;
+}
+
+.Categoria {
+  text-align: center;
+}
+
+.Categoria h2 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.Categoria mat-chip-option {
+  padding: 8px 16px;
+  font-size: 14px;
+  border-radius: 4px;
+  margin: 0 4px;
+  background-color: #E0D4F5; /* Roxo mais claro */
+  color: #1D1B20;
+  cursor: pointer;
+  display: inline-block;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.Categoria mat-chip-option[selected] {
+  background-color: #E0D4F5;  /* Roxo mais forte */
+  color: #FFFFFF;
+}
+
+.Categoria mat-chip-option:hover {
+  background-color: #E0D4F5; 
+  color: #FFFFFF;
+}
+
+mat-dialog-actions {
+  text-align: center;
+}
+
+mat-card-actions {
+  width: 100%;
+}
+
+mat-card-actions button {
+  width: 100%;
+  padding: 20px;
+  background-color: #7B68EE;
+  color: #FFFFFF;
+  font-size: 16px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+mat-card-actions button:hover {
+  background-color: #6a5acd;
+}
+
